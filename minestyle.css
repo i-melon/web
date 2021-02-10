@@ -1,0 +1,204 @@
+#intro{
+    width: 1600px;
+    height: 60px;
+    position: absolute;
+    left: 160px;
+    top: 0%;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+.link1{
+    position: absolute;
+    top: 26px;
+    left: 160px;
+    text-decoration: none;
+    color: rgb(38,38,38);
+}
+.link2{
+    position: absolute;
+    top: 26px;
+    left: 275px;
+    text-decoration: none;
+    color: rgb(38,38,38);
+}
+.link3{
+    position: absolute;
+    top: 26px;
+    left: 335px;
+    text-decoration: none;
+    color: rgb(38,38,38);
+}
+.link4{
+    position: absolute;
+    top: 26px;
+    left: 415px;
+    text-decoration: none;
+    color: rgb(38,38,38);
+}
+.link7{
+    position: absolute;
+    top: 26px;
+    right: 55px;
+    text-decoration: none;
+    color: rgb(38,38,38);
+}
+.link6{
+    position: absolute;
+    top: 26px;
+    right: 145px;
+    text-decoration: none;
+    color: rgb(38,38,38);
+}
+.link5{
+    position: absolute;
+    top: 26px;
+    right: 240px;
+    text-decoration: none;
+    color: rgb(38,38,38);
+}
+.big{
+    width: 150px;
+    position: absolute;
+    top: 3px;
+    left: 6px;
+    float: left;
+}
+#lupa{
+    width: 20px;
+    position: absolute;
+    right: 115px;
+    top: 26px;
+}
+#ava{
+    width: 30px;
+    position: absolute;
+    right: 15px;
+    top: 20px;
+}
+
+
+
+#block1{
+    width: 1600px;
+    height: 600px;
+    background-color: rgb(233,233,233);
+    position: absolute;
+    left: 160px;
+    top: 65px;
+
+}
+#head1{
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 200px;
+    left: 100px;
+}
+#par1{
+    width: 495px;
+    position: absolute;
+    top: 260px;
+    left: 100px;
+    font-family: sans-serif;
+}
+.button1{
+    width: 160px;
+    height: 40px;
+    position: absolute;
+    top: 350px;
+    left: 100px;
+    background-color: black;
+    border: none;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+}
+.button2{
+    width: 160px;
+    height: 40px;
+    position: absolute;
+    top: 350px;
+    left: 265px;
+    border:  none;
+    background-color:  rgb(233,233,233);
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+}
+#pic1{
+    position: absolute;
+    right: 0%;
+
+}
+
+
+#block2{
+    width: 1600px;
+    height: 400px;
+    position: absolute;
+    left: 160px;
+    top: 665px;
+}
+.img{
+    width: 355px;
+    height: 190px;
+    margin: 20px;
+}
+.miniblock{
+    width: 355px;
+    height: 190px;
+    top:240px;
+    left: 20px;
+    font-family: sans-serif;
+    position: absolute;
+}
+.miniblock2{
+    width: 355px;
+    height: 190px;
+    font-family: sans-serif;
+    top:240px;
+    left: 420px;
+    position: absolute;
+}
+.miniblock3{
+    width: 355px;
+    height: 190px;
+    font-family: sans-serif;
+    top:240px;
+    right: 420px;
+    position: absolute;
+}
+.miniblock4{
+    width: 355px;
+    height: 190px;
+    font-family: sans-serif;
+    top:240px;
+    right: 20px;
+    position: absolute;
+}
+.button3{
+    font-family: sans-serif;
+    border: none;
+    background-color: white;
+    color: rgb(25, 209, 209);
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+
+#block3{
+    width: 1600px;
+    height: 600px;
+    background-color: rgb(233,233,233);
+    position: absolute;
+    left: 160px;
+    top: 1080px;
+
+}
+#snimok{
+    width: 800px;
+    position: absolute;
+    right: 100px;
+    top: 10px;
+}
