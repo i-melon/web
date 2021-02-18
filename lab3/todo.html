@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>List</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body{
+            margin: 0%
+        }
+        header{
+            color: gray;
+            background-color: rgb(24, 24, 24);
+            width: 100%;
+            height: 60px;
+            margin: 0; 
+            padding: 0px;
+        }
+        #head{
+            margin-top: 20px;
+            margin-left: 70px;
+            font-size: 30px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .main{
+            width: 75%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin: auto;
+        }
+        .container{
+            width: 100%;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 400;
+            height: 60px;
+            padding: 10px;
+            margin: 10px;
+            display: flex;
+            justify-content: space-between;
+            flex-direction: row;
+        }
+        #taskName{
+            width: 75%;
+            height: 60%;
+            border-radius: 4px;
+            border: 4px;
+        }
+        .btn{
+            height: 60%;
+            width: 60px;
+            background-color: rgb(35, 35, 179);
+            border: 2px;
+            border-radius: 4px;
+            color: white;
+            font-weight: bold;
+        }
+        #add{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+        }
+        .trash{
+            border: none;
+            color: red;
+            font-size: 20px;
+            background-color: white;
+        }
+    </style>
+
+    <script>
+        function deleteItem () {
+            document.getElementById("list").remove();
+        }
+
+        function newElement(){
+            let div = document.createElement('div');
+            div.className = "container";
+            div.innerHTML = ">";
+            document.getElementById("main").append("div");
+        }
+    </script>  
+</head>
+<body>
+    <header><span id="head">ToDo List</span></header>
+    <div class = "main" >
+        <div class="container">
+            <h1>ToDo List</h1>
+        </div>
+        <div class="container" id="add">
+            <input id="taskName" type="text" placeholder="New task">
+            <button onclick="newElement()" class="btn">Add</button>
+        </div>
+        <div class="container" id="list">
+                <label><input type="checkbox"> finish lab 3</label>
+                <button class="trash" onclick="deleteItem()"><i class="fa fa-trash"></i></button>
+        </div>
+              
+</body>
+
+    
+
+</html>
